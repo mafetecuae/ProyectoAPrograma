@@ -1,1 +1,172 @@
-/* You can add global styles to this file, and also import other style files */
+/*head----------------------------------------------------*/
+header div{
+    background-color: rgb(67, 67, 70);
+    margin: 0;
+}
+header{
+    background-color: rgb(67, 67, 70);
+    overflow: hidden;
+}
+div{
+    background-color: rgb(67, 67, 70);
+    border-radius: 10px;
+    margin: 20px;
+}
+#ApLogo{
+    width: 160px;
+}
+#GitHub, #LinkedIn, #boton{
+    float: right;
+}
+#boton{
+    margin-top: 30px;
+    margin-left: 10px;
+}
+#LinkedIn{
+    margin-top: 20px;
+    margin-left: 5px;
+}
+#GitHub{
+    margin-top: 20px;
+}
+/*acerca de----------------------------------------------------------*/
+@media(max-width: 991px){
+#AcercaDe #Foto img{
+    width: 200px;
+}
+#AcercaDe #Foto{
+    margin-top: -70px;
+    margin: auto;
+}
+#Resumen h4{
+    text-align: center;
+    margin-right: 20px;
+}
+.container h2{
+    text-align: center;
+}
+}
+.container img{
+    margin: auto;
+    width: 100%;
+}
+#Resumen{
+    margin-right: auto;
+}
+#AcercaDe #Foto{
+    margin-top: -70px;
+    text-align: center;
+    width: 300px;
+}
+/*experiencia----------------------------------------------------------*/
+#ExperienciaTrabajo img, #Educacion img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    justify-content: center;
+}
+/*Todo---------------------------------------------------------------*/
+ul{
+    list-style-type: none;
+    margin: 0%;
+    padding: 0%;
+}
+
+#Educacion section, #Proyectos img, .titulo, #Resumen p, #habilidades, #ExperienciaTrabajo section, #Habilidades article div h4, .container h2, #Resumen{
+    margin: 10px;
+}
+#Educacion a, #carrusel a, #Habilidades a, #ExperienciaTrabajo a, #AcercaDe a{
+    color: rgb(235, 184, 44);
+    margin: 2px;
+    float: right;
+}
+div.Edicion{
+    display: none;
+}
+/*habilidades------------------------------------------------------------*/
+.Titulo{
+    background-color: transparent;
+}
+#Habilidades article div{
+    margin: 50px auto;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    text-align: center;
+}
+#CirculoProgreso, #CirculoProgreso:before, #CirculoProgreso:after{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+#CirculoProgreso{
+    margin: 50px auto;
+    background: linear-gradient(to top, rgba(236, 234, 71) 0%,rgb(236, 234, 71) 50%,rgb(71, 71, 44) 0%);
+    position: relative;
+}
+#CirculoProgreso:before, #CirculoProgreso:after{
+    position:absolute;
+    top: 0;
+    left: 0;
+}
+#CirculoProgreso:before{
+    content: "HTML 5";
+    background: rgb(35, 35, 37) content-box;
+    padding: 10px;
+    box-sizing: border-box;
+    line-height: 70px;
+}
+#CirculoProgreso:after{
+    content: "%";
+    background: linear-gradient(to top, rgb(67, 67, 70) 50%,rgb(236, 234, 71) 50%,transparent 0%);
+    transform: scale(1.1);
+    line-height: 130px;
+}
+/*Proyectos-----------------------------------------------------*/
+.carousel-indicators, .carousel-caption{
+    background-color: rgba(67, 67, 70, 0.6);
+}
+#carrusel, .carousel-inner{
+    margin: auto;
+    width: 100%;
+}
+.carousel-item img{
+    width: 500px;
+    margin: auto;
+    display: block;
+}
+/*Pagina de registro e inicio de sesion-----------------------------------------------*/
+.registro, .inicio{
+    box-sizing: border-box;
+    margin: auto;
+    padding: 3px;
+    margin-top: 80px;
+}
+.registro .container, .inicio .container{
+    width: 500px;
+    height: 450px;
+    padding: 15px;
+    text-align: center;
+}
+.registro .container .link, .inicio .container .link{
+    color: rgb(235, 184, 44);
+}
+.registro .container p, .inicio .container p{
+    margin-top: 15px;
+}
+.inicio .container{
+    width: 500px;
+    height: 300px;
+    padding: 15px;
+}
+/*pie de pagina-------------------------------------------------*/
+footer{
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+    color: rgb(77, 77, 80);
+    display: flex;
+    flex-direction: column;
+    background-color:rgb(35, 35, 37);
+    font-size: 11px;
+}

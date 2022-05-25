@@ -11,6 +11,7 @@ import { HardAndSoftSkillsComponent } from './components/hard-and-soft-skills/ha
 import { ProyectsComponent } from './components/proyects/proyects.component';
 import { LogInComponent } from './components/log-in/log-in.component';
 import { SingUpComponent } from './components/sing-up/sing-up.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { SingUpComponent } from './components/sing-up/sing-up.component';
     HardAndSoftSkillsComponent,
     ProyectsComponent,
     LogInComponent,
-    SingUpComponent
+    SingUpComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
