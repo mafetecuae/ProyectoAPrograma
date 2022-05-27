@@ -159,6 +159,21 @@ div.Edicion{
     height: 300px;
     padding: 15px;
 }
+.salir{
+    float: right;
+}
+#overlay1, #overlay2{
+    background: rgba(35, 35, 37, .8);
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0; 
+    left: 0;
+    visibility: hidden;
+}
+#overlay1.active{
+    visibility: visible;
+}
 /*pie de pagina-------------------------------------------------*/
 footer{
     margin: auto;
